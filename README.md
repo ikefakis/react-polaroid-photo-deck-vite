@@ -22,6 +22,7 @@ _See [demo](https://ikefakis.github.io/react-polaroid-photo-deck-vite)_
 - If you want to preview the production build locally run `npm run preview`. You will be navigated to `http://127.0.0.1:4173/react-polaroid-photo-deck-vite/` on your browser
 
 ## Deploy
+
 - Change in `vite.config.js` the `base: '/react-polaroid-photo-deck-vite/'` if a different nested public path must be set or delete it entirely to deploy to the server's root `/`
 - `$ npm run deploy` - Deploy to Github Pages -> `gh-pages` branch
-- Set in project's settings -> Pages ->Branch `gh-pages` and folder `/ (root)`
+- Set in project's settings -> Pages -> Branch `gh-pages` and folder `/ (root)`
